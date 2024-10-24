@@ -51,7 +51,7 @@ class MainWindow(QMainWindow):
         for i in range(3):
             self.hbFacts.append(QHBoxLayout())
             lFactImage = QLabel()
-            lFactImage.setPixmap(QPixmap("data\\images\\fact_1.png"))
+            lFactImage.setPixmap(QPixmap("images\\fact_1.png"))
             lFactImage.setStyleSheet("border: none;")
             self.lFactImages.append(lFactImage)
             lFactText = QLabel(TEXT)
